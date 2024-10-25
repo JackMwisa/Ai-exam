@@ -1,5 +1,11 @@
-package graphsearch;
+/**
+ * A Search*: Combines path cost and heuristic values to determine the next node, 
+ * balancing efficient searching with optimal pathfinding. 
+ * It’s optimal and complete if the heuristic is admissible 
+ * (never overestimates the cost to reach the goal).
+ */
 
+package graphsearch;
 import java.util.*;
 
 

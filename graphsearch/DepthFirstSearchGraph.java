@@ -1,3 +1,10 @@
+/**
+ * Depth First Search (DFS): 
+ * Explores as deeply as possible along each path before backtracking. 
+ * DFS uses a stack to manage nodes, either explicitly or through recursion.
+ */
+
+
 package graphsearch;
 
 import java.util.*;

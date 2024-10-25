@@ -1,3 +1,8 @@
+/**
+ * Uniform Cost Search (UCS): Expands the node with the least cumulative path cost. 
+ * This algorithm, using a priority queue, finds the lowest-cost path to the goal in weighted graphs.
+ */
+
 package graphsearch;
 
 import java.util.*;

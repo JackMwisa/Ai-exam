@@ -1,3 +1,10 @@
+/**
+ * 
+ * Greedy Search: Selects nodes based solely on a 
+ * heuristic that estimates the remaining distance to the goal, 
+ * aiming for the most promising path. However, it doesn’t guarantee an optimal path.
+ */
+
 package graphsearch;
 
 import java.util.*;

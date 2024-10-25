@@ -1,3 +1,9 @@
+/**
+ * Breadth First Search (BFS): 
+ * Explores all neighboring nodes at the current level before moving on to nodes at the next level. 
+ * BFS uses a queue to explore nodes in layers and guarantees finding the shortest path in an unweighted graph.
+ */
+
 package graphsearch;
 
 import java.util.*;
