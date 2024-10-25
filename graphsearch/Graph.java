@@ -1,9 +1,13 @@
 /**
- *
- *
- * 
+ * Scenario: Finding the Shortest Route in a Road Map
+ * Imagine a small city with landmarks (nodes) connected by roads (edges),
+ * and you want to find the shortest or fastest route from a starting point to a destination.
  */
 
+
+//Tree Search ignores revisits and explores all possible paths.
+
+//Graph Search remembers the lowest-cost path to each node, avoiding redundant revisits
 
 
 package graphsearch;
