@@ -13,7 +13,7 @@ public class DepthFirstSearch {
             String node = stack.pop();
             if (!visited.contains(node)){
                 visited.add(node);
-                System.out.println("Visited" + node);
+                System.out.println("Visited " + node);
 
                 if (node.equals(goal)){
                     System.out.println("I have reached, I have found the goal: " + goal);
