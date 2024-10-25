@@ -9,7 +9,7 @@ public class BreadthFirstSearchTree {
 
         while (!queue.isEmpty()) {
             String node = queue.poll();
-            System.out.println("Visited (Tree BFS): " + node);
+            System.out.println("Visited : " + node);
 
             if (node.equals(goal)) {
                 System.out.println("Goal found: " + goal);

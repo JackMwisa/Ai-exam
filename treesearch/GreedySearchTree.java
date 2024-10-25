@@ -9,7 +9,7 @@ public class GreedySearchTree {
 
         while (!queue.isEmpty()) {
             Node current = queue.poll();
-            System.out.println("Visited (Tree Greedy): " + current.name);
+            System.out.println("Visited : " + current.name);
 
             if (current.name.equals(goal)) {
                 System.out.println("Goal found: " + goal);

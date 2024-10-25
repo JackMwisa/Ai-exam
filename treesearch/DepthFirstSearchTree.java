@@ -10,7 +10,7 @@ public class DepthFirstSearchTree {
 
         while (!stack.isEmpty()) {
             String node = stack.pop();
-            System.out.println("Visited (Tree DFS): " + node);
+            System.out.println("Visited : " + node);
 
             if (node.equals(goal)) {
                 System.out.println("Goal found: " + goal);

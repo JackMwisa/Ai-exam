@@ -9,7 +9,7 @@ public class UniformCostSearchTree {
 
         while (!queue.isEmpty()) {
             Node current = queue.poll();
-            System.out.println("Visited (Tree UCS): " + current.name);
+            System.out.println("Visited : " + current.name);
 
             if (current.name.equals(goal)) {
                 System.out.println("Goal reached with travel time: " + current.cost + " mins");
