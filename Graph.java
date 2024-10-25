@@ -28,4 +28,8 @@ public class Graph {
     public Map<String, Integer> getNeighbors(String node) {
         return aList.getOrDefault(node, new HashMap<>());
     }
+
+    public static class GreedySearch {
+
+    }
 }
