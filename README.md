@@ -30,4 +30,4 @@ This project demonstrates various graph search algorithms using Java, including 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JackMwisa/graph-search-algorithms-java.git
+   git clone https://github.com/JackMwisa/Ai-exam.git
