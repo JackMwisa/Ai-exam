@@ -11,7 +11,7 @@ public class UniformCostSearchGraph {
 
         while (!queue.isEmpty()) {
             Node current = queue.poll();
-            System.out.println("Visited (Graph UCS): " + current.name);
+            System.out.println("Visited (graphsearch.GreedySearchGraph.Graph UCS): " + current.name);
 
             if (current.name.equals(goal)) {
                 System.out.println("Goal reached with minimum travel time: " + current.cost + " mins");

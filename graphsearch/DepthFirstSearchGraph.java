@@ -12,7 +12,7 @@ public class DepthFirstSearchGraph {
             String node = stack.pop();
 
             if (!visited.contains(node)) {
-                System.out.println("Visited (Graph DFS): " + node);
+                System.out.println("Visited (graphsearch.GreedySearchGraph.Graph DFS): " + node);
                 visited.add(node);
 
                 if (node.equals(goal)) {

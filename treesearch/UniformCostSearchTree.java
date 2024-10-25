@@ -1,5 +1,5 @@
 package treesearch;
-
+import graphsearch.Graph;
 import java.util.*;
 
 public class UniformCostSearchTree {

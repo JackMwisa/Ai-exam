@@ -1,4 +1,5 @@
 package treesearch;
+import graphsearch.Graph;
 
 import java.util.*;
 
