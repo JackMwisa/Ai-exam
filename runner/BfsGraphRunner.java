@@ -10,7 +10,6 @@ public class BfsGraphRunner {
         cityMap.addRoad("Church", "Airport", 7);
         cityMap.addRoad("Shop", "Library", 1);
         cityMap.addRoad("Library", "Airport", 9);
-
         
 
         System.out.println("\nBFS Graph Search:");
